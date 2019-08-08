@@ -62,7 +62,7 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .main {
@@ -71,7 +71,7 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .bottom {
@@ -79,8 +79,8 @@ export default {
   height: 300px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  margin-left: 5rem;
+  /* align-items: center; */
+  margin-left: 3rem;
 }
 
 hr {
@@ -116,8 +116,9 @@ hr {
   color: #24d895;
   font-family: BMHANNAProOTF;
   font-size: 1.35rem;
-  position: relative;
-  right: 3rem;
+  /* position: relative;
+  right: 3rem; */
+  margin-left: 3rem;
 }
 
 .departure {
@@ -125,14 +126,16 @@ hr {
   height: 35px;
   border-radius: 6px;
   background-color: rgba(101, 247, 194, 0.2);
+  align-self: center;
 }
 
 .arr_word {
   color: #24d895;
   font-family: BMHANNAProOTF;
   font-size: 1.35rem;
-  position: relative;
-  right: 3rem;
+  /* position: relative;
+  right: 3rem; */
+  margin-left: 3rem;
 }
 
 .arrive {
@@ -140,14 +143,16 @@ hr {
   height: 35px;
   background-color: rgba(101, 247, 194, 0.2);
   border-radius: 6px;
+  align-self: center;
 }
 
 .date_word {
   color: #24d895;
   font-family: BMHANNAProOTF;
   font-size: 1.35rem;
-  position: relative;
-  right: 3.7rem;
+  /* position: relative;
+  right: 3.7rem; */
+  margin-left: 3rem;
 }
 
 .date {
@@ -155,10 +160,11 @@ hr {
   height: 35px;
   border-radius: 6px;
   background-color: rgba(101, 247, 194, 0.2);
+  align-self: center;
 }
 
 .search {
-  margin-bottom: 45px;
+  margin-bottom: 3rem;
   width: 100%;
   height: 45px;
   border-radius: 22.5px;
@@ -166,9 +172,11 @@ hr {
   font-family: BMDoHyeon-OTF;
   font-size: 1.2rem;
   color: #002e1d;
+  align-self: center;
 }
 
 a {
   width: 50%;
+  align-self: center;
 }
 </style>
