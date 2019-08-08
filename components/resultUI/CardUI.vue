@@ -37,11 +37,11 @@ export default {
 }
 
 .type {
-  margin-left: 15px;
+  margin-left: 1rem;
   /* width: 103px;
   height: 17px; */
   font-family: BMHANNAProOTF;
-  font-size: 17px;
+  font-size: 1.2rem;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -51,17 +51,15 @@ export default {
 }
 
 .fzki {
-  margin-left: 15px;
+  margin-left: 1rem;
   /* width: 68px;
   height: 18px; */
 }
 
 .-won {
-  margin-left: 224px;
-  /* width: 70px;
-  height: 15px; */
+  margin-left: 15rem;
   font-family: BMDoHyeon-OTF;
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -71,8 +69,8 @@ export default {
 }
 
 .won_word {
-  margin-left: 224px;
-  font-size: 11px;
+  margin-left: 14rem;
+  font-size: 0.8rem;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -85,14 +83,14 @@ export default {
   display: flex;
   justify-content: space-between;
   position: relative;
-  top: 10px;
+  top: 0.8rem;
 }
 .departTime {
-  margin-left: 15px;
+  margin-left: 1rem;
   /* width: 34px;
   height: 15px; */
   font-family: BMDoHyeon-OTF;
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -102,11 +100,11 @@ export default {
 }
 
 .arriveTime {
-  margin-right: 75px;
+  margin-right: 5rem;
   /* width: 37px;
   height: 15px; */
   font-family: BMDoHyeon-OTF;
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -117,29 +115,30 @@ export default {
 
 .bottomContainer {
   position: relative;
-  bottom: 2px;
-  right: 5px;
+  bottom: 0.2rem;
+  right: 0.4rem;
   display: flex;
   flex-direction: column;
 }
 
 .reservation {
   position: relative;
-  top: 37px;
-  margin-left: 15px;
+  top: 2.5rem;
+  margin-left: 1rem;
   font-family: BMDoHyeon-OTF;
-  font-size: 11px;
+  font-size: 0.8rem;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
   letter-spacing: normal;
   color: #006640;
-  width: 131px;
+  width: 35%;
   height: 25px;
   opacity: 0.54;
   border-radius: 11px;
   background-color: #65f7c2;
+  max-width: 300px;
 }
 
 .nav {
